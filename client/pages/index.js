@@ -1,7 +1,7 @@
 
 //INTERNAL IMPORT
 import Style from "../styles/index.module.css";
-import { HeroSection, Service, BigNFTSlider, Subscribe, Title, Category, Filter, NFTCard, Collection, FollowerTab } from "../components/componentsindex";
+import { HeroSection, Service, BigNFTSlider, Subscribe, Title, Category, Filter, NFTCard, Collection, FollowerTab, AudioLive } from "../components/componentsindex";
 import { TiThList } from "react-icons/ti";
 
 const Home = () => {
@@ -10,6 +10,10 @@ const Home = () => {
       <HeroSection />
       <Service />
       <BigNFTSlider />
+      <Title heading="Latest Audio Collection"
+        paragraph="Discover the most outstanding NFTs in all topics of life."
+       />
+      <AudioLive />
       <FollowerTab />
       <Collection />
       <Title heading="Featured NFTs"
