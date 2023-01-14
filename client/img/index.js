@@ -49,9 +49,17 @@ import provider1 from "./provider-1.png";
 import provider2 from "./provider-2.png";
 import provider3 from "./provider-3.png";
 import provider4 from "./provider-4.png";
+import founder1 from "./founder1.jpg";
+import founder2 from "./founder2.jpg";
+import founder3 from "./founder3.jpg";
+import founder4 from "./founder4.jpg";
 
 export default {
   hero2,
+  founder1,
+  founder2,
+  founder3,
+  founder4,
   provider1,
   provider2,
   provider3,
