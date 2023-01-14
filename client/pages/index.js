@@ -3,7 +3,7 @@
 import Style from "../styles/index.module.css";
 import { HeroSection, Service, BigNFTSlider, Subscribe, Title, Category, Filter, NFTCard, Collection, FollowerTab, AudioLive, Slider, Brand, Video } from "../components/componentsindex";
 import { TiThList } from "react-icons/ti";
-
+ 
 const Home = () => {
   return (
     <div className={Style.homePage}>
